@@ -631,7 +631,7 @@ export function applyTranslationPatches(targetDict?: Record<string, Record<strin
     }
     const autoPatch = autoAuditPatch[lang] || {};
     for (const key of Object.keys(autoPatch)) {
-      if (autoPatch[key] !== undefined && autoPatch[key] !== null) {
+      if (autoPatch[key] !== undefined && autoPatch[key] !== null && autoPatch[key] !== '') {
         dict[key] = autoPatch[key];
       }
     }

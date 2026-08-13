@@ -170,7 +170,7 @@ const _PRESETS: AppPreset[] = [
     
     <!-- Input Form -->
     <div class="flex gap-2.5 mb-5">
-      <input type="text" id="task-input" placeholder="Planeje uma nova tarefa..." class="flex-1 bg-zinc-950 rounded-2xl px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 outline-none border border-zinc-800 focus:border-emerald-500/50 transition-colors">
+      <input type="text" id="task-input" placeholder="..." class="flex-1 bg-zinc-950 rounded-2xl px-4 py-3 text-sm text-zinc-100 placeholder-zinc-600 outline-none border border-zinc-800 focus:border-emerald-500/50 transition-colors">
       <button onclick="addTask()" class="bg-emerald-500 text-zinc-950 px-4 rounded-2xl hover:bg-emerald-400 active:scale-95 transition-all font-bold text-sm">+</button>
     </div>
     
